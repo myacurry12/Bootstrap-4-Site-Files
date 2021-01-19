@@ -2,17 +2,20 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   color: #222;
 }
 .navbar{
-padding: .8rem;
+padding: .6rem;
 }
 .navbar-nav li{
   padding-right: 20px;
 }
 .nav-link{
   font-size: 1.1em !important;
+}
+.navbar-brand{
+  width
 }
 .carousel-inner img{
 width: 100%;
@@ -34,12 +37,12 @@ height:100%;
   padding-bottom: 1rem;
 }
 .btn-primary{
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #000;
+  border: 1px solid #000;
 }
 .btn-primary:hover{
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #FF0000;
+  border: 1px solid #FF0000;
 }
 .jumbotron{
   padding: 1rem;
@@ -103,11 +106,11 @@ color: #dd4d39;
 .fa-google-plus-g:hover,
 .fa-twitter:hover,
 .fa-facebook:hover {
-  color: #d5d5d5;
+  color: #FF0000;
 }
 footer{
-  background-color: #3f3f3f;
-  color: #d5d5d5;
+  background-color: #000;
+  color: white;
   padding-top: 2rem;
 }
 hr.light{
@@ -208,7 +211,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('img/jordanman.jpg');
   position: fixed;
   display: block;
   top: 0;
